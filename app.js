@@ -4,7 +4,7 @@ const sectBtn = document.querySelectorAll('control');
 const allsections = document.querySelector('.main-content');
 
 
-function PageTransitions(){
+function Trans(){
     //what happens when I click on button
     for(let i = 0; i < sectBtn.length; i++){
         sectBtn[i].addEventListener('click', function(){
@@ -16,4 +16,4 @@ function PageTransitions(){
 
 }
 
-PageTransitions();
+Trans();
